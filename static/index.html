@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mechanic Scheduler MVP</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+
+<body>
+    <h1>Mechanic Scheduler MVP</h1>
+
+    <section id="add-mechanic">
+        <h2>Add Mechanic</h2>
+        <form id="mechanic-form">
+            <input type="text" id="mech-name" placeholder="Name" required>
+            <input type="text" id="mech-spec" placeholder="Specialization">
+            <button type="submit">Add</button>
+        </form>
+    </section>
+
+    <section id="schedule-appointment">
+        <h2>Schedule Appointment</h2>
+        <form id="appointment-form">
+            <select id="select-mechanic"></select>
+            <input type="text" id="cust-name" placeholder="Customer Name" required>
+            <input type="datetime-local" id="appt-time" required>
+            <input type="text" id="appt-desc" placeholder="Description">
+            <button type="submit">Schedule</button>
+        </form>
+    </section>
+
+    <section id="appointments-list">
+        <h2>Appointments</h2>
+        <ul id="appointments"></ul>
+    </section>
+
+    <script src="/static/script.js"></script>
+</body>
+
+</html>

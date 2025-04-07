@@ -1,0 +1,16 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+    padding: 10px;
+    border: 1px solid #000;
+}
+
+input,
+select,
+button {
+    margin: 5px;
+}
